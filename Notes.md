@@ -1,4 +1,4 @@
-                                                python course
+                                               python course
 
 to run any python code or compiler in command prompt we need write command "python"
 

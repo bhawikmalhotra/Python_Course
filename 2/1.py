@@ -8,3 +8,17 @@
 
 # number = int(input("Enter a number: "))
 
+number = input("Enter a number: ")
+
+new_number = ''
+
+
+number % 10 
+
+
+# test_num = number[::-1]
+
+# if number == test_num:
+#     print(f"{number} is a palindrome")
+# else:
+#     print(f"{number} is not a palindrome")

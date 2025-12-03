@@ -97,7 +97,7 @@ OOps
 
    * in python, with the help of polymorphysm we change behaviour of operators like +-*= 
 
-   Dunder Methods [ like 10 + 20 = 30 - | pythin see (10).__add__(20) ]
+   Dunder Methods [ like 10 + 20 = 30 - | python see (10).__add__(20) ]
 
    # Eg: 
    class Point:
@@ -120,3 +120,54 @@ OOps
 
    [with]
          with open("filename', mode, encoding) as fil
+            fil.write('Hello World')
+
+   - filename : the name of the file or full path of the file 
+   - mode : a string defining how you want to use the file 
+   - Encoding : special charaterstics for security , by default UTF-8
+
+
+   modes                                       Description
+   r - read                                  1. opens a file for reading only
+   w - write                                 2. overwrites existing files     
+   a - append                                3. opens for writing & add to the end
+   x - create                                4. creates a new file
+   b - binary                                5. opens a file in binary mode
+   + - update | use with r & w               6. opens a file for updating (reading and writing)     
+
+
+   * read :- 
+      read()  # reads the entire file
+      readline() # reads a single line from the file
+      readlines() # reads all lines and returns a list of lines , works with for loop
+
+   * write :-
+      write() # writes a string to the file
+      f = open('sample.txt', 'w/a')
+       f.write('Hello World\n')
+
+      writelines() # writes a list of strings to the file
+      f = open('sample.txt', 'w/a')
+       lines = ['Hello World\n', 'Welcome to Python\n']
+       f.writelines(lines)
+
+
+   * update :- 
+      r+ # read and write
+      w+ # write and read
+
+      it has only diff of pointer position
+      in + pointer is at the begining
+
+
+
+      list comprehension, dictionary comprehension , lamdas, 
+
+      2 pointer 
+      sliding window
+      divide and conquer
+      bruteforce
+
+
+# RDBMS
+   MySQL - joints, operation, relations, concurrency, normalization

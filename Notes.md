@@ -28,6 +28,7 @@ multi valued data types:
 5. dictionary
 
 * in strings single qoute is used to define a single word or double qoute is used to define a sentence and triple quotes are used to define a paragraph in a string.
+* string adding is called 'Concadination.
 
 
 * List are the collection of homogenious or heterogenius data types which are ordered and mutable(changable) and allows duplicate values.
@@ -73,3 +74,49 @@ git commands:
 5. git push origin main : to push the changes to the remote repository on the main branch.
 6. git config --global user.name "your name" : to set the global username for git.
 7. git config --global user.email "your email" : to set the global email for git.
+
+
+OOps
+# encalsulation
+   it is done by 
+         __methodname()
+         or i can do with methdods of class like : __a or __func()
+
+   pyhon Dont supporst full encapsulation 
+      # i can still acces private members of class via : Dir(methodName)
+
+
+# inheritense
+    # single, multiple, mutlilevel, hirarchial
+    # Super() - this is use to access the methods of parents class in base class 
+        # this concept is known as 'MRO' - Method Resoltuion Order, which has technology (c3 linezation) which search methods in class , it just override the base to parent
+
+# Polymorphism
+   Means ability to take diff forms , same object diff form
+   A single object behave differently
+
+   * in python, with the help of polymorphysm we change behaviour of operators like +-*= 
+
+   Dunder Methods [ like 10 + 20 = 30 - | pythin see (10).__add__(20) ]
+
+   # Eg: 
+   class Point:
+      def __init__ (self,a,b):
+         self.a = a
+         self.b = b
+   
+      def __add__(self, other)
+         return Point(self.a + self.other)
+
+   test = Point(3,5)
+   print(test)
+
+
+# File Handeling
+   - it refers to performing operation on the file - read, write, close
+   - the key functions for working woth files in python is 
+   [Open]
+         file_obj = Open('filename', Mode, encoding)
+
+   [with]
+         with open("filename', mode, encoding) as fil

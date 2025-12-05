@@ -25,5 +25,11 @@
         - Not Null = No Null Values
         - Unique Key = No Dublicates values
 
+    DQL :
+        select - retrieve data from database
+        projection - the process of retriving specific columns from a table.
+        selection - the process of retriving specific rows from a table based on a condition.
+        joins - 
+
     
 

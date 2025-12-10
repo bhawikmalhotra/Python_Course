@@ -32,7 +32,7 @@
         joins - combining data from multiple tables based on a common column.
 
 
-    Operators
+# Operators
         - Arithmetic Operators
             - Addition           +
             - Subtraction        -
@@ -56,3 +56,12 @@
             - NOT 
     
 
+# Special Opreators:
+    1 IN               - It is multivalue operator which can take multiple values            - eg: WHERE country IN ('USA', 'Canada', 'UK');
+    2 NOT IN           - It is multivalue operator which can take multiple values            - eg: WHERE country NOT IN ('USA', 'Canada', 'UK');
+    3 IS               - It is used to compare a value with NULL                             - eg: WHERE column_name IS NULL;
+    4 IS NOT           - It is used to compare a value with NOT NULL                         - eg: WHERE column_name IS NOT NULL;   
+    5 BETWEEN          - It is used to filter the result set within a certain range          - eg: WHERE column_name BETWEEN value1 AND value2;
+    6 NOT BETWEEN
+    7 LIKE
+    8 NOT LIKE

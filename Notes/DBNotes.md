@@ -62,6 +62,16 @@
     3 IS               - It is used to compare a value with NULL                             - eg: WHERE column_name IS NULL;
     4 IS NOT           - It is used to compare a value with NOT NULL                         - eg: WHERE column_name IS NOT NULL;   
     5 BETWEEN          - It is used to filter the result set within a certain range          - eg: WHERE column_name BETWEEN value1 AND value2;
-    6 NOT BETWEEN
-    7 LIKE
-    8 NOT LIKE
+    6 NOT BETWEEN      - It is used to filter the result set outside a certain range         - eg: WHERE column_name NOT BETWEEN value1 AND value2;
+    7 LIKE             - It is used to search for a specified pattern | %, _                 - eg: WHERE column_name LIKE | A%, _b%; 
+    8 NOT LIKE         - It is used to search for a specified pattern not matching | %, _    - eg: WHERE column_name NOT LIKE | A%, _b%;
+
+
+# Joins
+    - Inner Join
+        select Entity1.col_name, Entity2.col_name
+        from Entity1, Inner Join Entity2
+        on Entity1.id = Entity2.id;
+    - Left Join
+    - Right Join
+    - Full other Join

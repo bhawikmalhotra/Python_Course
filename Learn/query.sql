@@ -9,7 +9,7 @@ FROM customers
 WHERE `First Name` = 'Linda';
 
 -- remove duplicate first names
-SELECT DISTINCT `First Name`
+SELECT DISTINCT `Country`
 FROM customers;
 
 -- modify rollno by adding 10 to each value
